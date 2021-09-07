@@ -57,7 +57,7 @@ int myatoi(char *buf)
 
 void do_stuff(char *buf)
 {
-	char tmp[SMALL_BUF];
+	char tmp[SMALL_BUF];	//48
 	int n;
        
         n = myatoi(buf);
