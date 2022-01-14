@@ -199,20 +199,20 @@ void child()
 			return;
 		}
 		switch (cmd) {
-		case 'c':
-			createkey(key);
-			break;
-		case 'a':
-			assignkey(key);
-			break;
-		case 'd':
-			deletekey(key);
-			break;
-		case 's':
-			searchkey(key);
-			break;
-		default:
-			break;
+			case 'c':
+				createkey(key);
+				break;
+			case 'a':
+				assignkey(key);
+				break;
+			case 'd':
+				deletekey(key);
+				break;
+			case 's':
+				searchkey(key);
+				break;
+			default:
+				break;
 		}
 	}
 }
